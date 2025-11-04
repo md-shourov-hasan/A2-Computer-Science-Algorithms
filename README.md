@@ -20,13 +20,13 @@ It’s mostly Python stuff — sorting, searching, and some OOP practice.
 Just wanted a place to keep all my A2 algorithms together —
 also helps me revise before exams and share code with friends.
 
-##💡 Future Plans
+## 💡 Future Plans
 
 Add more algorithms (merge sort, quick sort, linked list, etc.)
 
 Maybe include some flowcharts or notes for easier understanding
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Md Shourov Hasan
 Student | Tech enthusiast | Learner
