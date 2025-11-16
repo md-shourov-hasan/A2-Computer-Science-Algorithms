@@ -8,8 +8,10 @@ It’s mostly Python stuff — sorting, searching, and some OOP practice.
 
 ## 📁 What’s Inside
 
-- `BubbleSort.py` → classic bubble sort  
-- `InsertionSort.py` → another simple sorting algorithm  
+- `BubbleSort.py` → classic bubble sort
+- `2D_Array.py` → some codes for using 2D arrays  
+- `InsertionSort.py` → another simple sorting algorithm
+- `Binary_Search.py` → Binary Search code
 - `Object-Oriented Programming.py` → some OOP examples  
 - (more will be added as I go 👨‍💻)
 
