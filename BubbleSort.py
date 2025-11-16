@@ -17,10 +17,20 @@ def Bubble_sort(MyArray):
     length = len(MyArray)
     sorted = False
     while not sorted:
-    sorted = True 
+    sorted = True
     for i in range(0,length-1):
-        if Numbers[i] > Numbers[i+1]: 
+        if Numbers[i] > Numbers[i+1]:
             Numbers[i],Numbers[i+1] = Numbers[i+1], Numbers[i]
-            sorted = False 
+            sorted = False
     return MyArray
+
+
+#There is an alternative way for bubble sort, without using any condition
+
+for i in range(length - 1):
+    for j in range(i - 1): #we are iterating one less time, as the largest value is already sorted
+        if Numbers[j] > Numbers[j+1]:
+            Numbers[j], Numbers[j+1] = Numbers[j+1], Numbers[j] # we are making the swap
+
+print(Numbers)
     

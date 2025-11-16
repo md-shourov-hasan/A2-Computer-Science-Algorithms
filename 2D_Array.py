@@ -8,4 +8,4 @@ for i in range(10):
     numbers.append([0, -1])
     #just filling in the array
 
-print(numbers[9][1])
+print(numbers[9][1]) #we are reading data from the 9th record in the 1st field
