@@ -1,6 +1,5 @@
 #In Binary Search, we narrow our search with each iteration, by comparing the values
 #The array MUST BE SORTED, we will know why soon
-from operator import length_hint
 
 Numbers = [1,4,8,10,23,40,52,61,70] #This is the sorted array
 
