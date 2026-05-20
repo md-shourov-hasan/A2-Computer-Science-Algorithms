@@ -17,11 +17,11 @@ def Bubble_sort(MyArray):
     length = len(MyArray)
     sorted = False
     while not sorted:
-    sorted = True
-    for i in range(0,length-1):
-        if Numbers[i] > Numbers[i+1]:
-            Numbers[i],Numbers[i+1] = Numbers[i+1], Numbers[i]
-            sorted = False
+        sorted = True
+        for i in range(0,length-1):
+            if Numbers[i] > Numbers[i+1]:
+                Numbers[i],Numbers[i+1] = Numbers[i+1], Numbers[i]
+                sorted = False
     return MyArray
 
 
